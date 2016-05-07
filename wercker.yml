@@ -1,6 +1,7 @@
 box: wercker/default
 
-steps:
-  - gomesuit/hello:
-    first-name: tarou
-    last-name: yamada
+build:
+  steps:
+    - gomesuit/hello:
+      first-name: tarou
+      last-name: yamada
