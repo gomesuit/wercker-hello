@@ -1,0 +1,9 @@
+name: hello
+version: 0.0.1
+description: hello
+properties:
+  first-name:
+    type: string
+    required: true
+  last-name:
+    type: string
