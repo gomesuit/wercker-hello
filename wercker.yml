@@ -2,6 +2,5 @@ box: wercker/default
 
 build:
   steps:
-    - gomesuit/hello:
-      first-name: tarou
-      last-name: yamada
+    - shellcheck:
+      files: run.sh
