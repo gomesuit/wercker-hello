@@ -1,0 +1,4 @@
+steps:
+  - gomesuit/hello:
+    first-name: tarou
+    last-name: yamada
