@@ -4,3 +4,7 @@ build:
   steps:
     - shellcheck:
         files: run.sh
+
+    - gomesuit/hello:
+        first-name: tarou
+        last-name: yamada
