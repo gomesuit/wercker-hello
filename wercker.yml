@@ -1,3 +1,5 @@
+box: wercker/default
+
 steps:
   - gomesuit/hello:
     first-name: tarou
